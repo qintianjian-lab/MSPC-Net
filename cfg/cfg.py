@@ -22,7 +22,7 @@ cfg = {
     # dataset params
     "num_classes": 5,
     "data_dir": "your data dir",
-    "class_names": "your class names",
+    "class_names": "your class names",  # like "A0,F1,G1"
     "spectrum_length": 3584,
     # log params
     "project": "your project name",
