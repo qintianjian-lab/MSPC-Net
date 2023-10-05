@@ -13,14 +13,14 @@ import torch.optim as optim
 import torchmetrics
 import wandb
 
-from .muti_scale_pc import FasterNet
+from .muti_scale_pc import MSPCNet
 
 
 class BaselinePl(pl.LightningModule):
     def __init__(self, cfg):
         super().__init__()
         self.cfg = cfg
-        self.model = FasterNet(
+        self.model = MSPCNet(
             num_classes=cfg["num_classes"],
             spectrum_length=cfg["spectrum_length"],
             **cfg["pc"],
