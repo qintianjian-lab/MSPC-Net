@@ -1,4 +1,4 @@
-# Classification of astronomical spectra based on multiscale partial convolution
+# Classification of astronomical spectra based on multi-scale partial convolution
 
 ![Network Structure](./img/model.png)
 
