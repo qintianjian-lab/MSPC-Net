@@ -75,7 +75,7 @@ def main():
         pin_memory=True,
     )
 
-    # 4. load model
+    # 4. model
     baseline_pl = BaselinePl(cfg)
 
     # 5. load trainer
