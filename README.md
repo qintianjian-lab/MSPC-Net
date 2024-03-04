@@ -49,3 +49,7 @@ Support K-fold cross-validation.
 │   │   ├── ...
 └── ...
 ```
+
+## Training on other sky surveys
+
+Please modify the read_other_fits function in data_preprocess/spec_preprecess.py to preprocess the data and build a dataset, and then modify cfg/cfg.py to fine-tune the model structure
