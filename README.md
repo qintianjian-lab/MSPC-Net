@@ -53,3 +53,19 @@ Support K-fold cross-validation.
 ## Training on other sky surveys
 
 Please modify the read_other_fits function in data_preprocess/spec_preprecess.py to preprocess the data and build a dataset, and then modify cfg/cfg.py to fine-tune the model structure
+
+
+## Citation
+
+```
+@article{article,
+author = {Wu, Jingjing and He, Yuchen and Wang, Wenyu and Qu, Meixia and Jiang, Bin and Zhang, Yanxia},
+year = {2024},
+month = {05},
+pages = {260},
+title = {Classification of Astronomical Spectra Based on Multiscale Partial Convolution},
+volume = {167},
+journal = {The Astronomical Journal},
+doi = {10.3847/1538-3881/ad38ae}
+}
+```
