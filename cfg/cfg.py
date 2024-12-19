@@ -38,8 +38,8 @@ cfg = {
     "pc": {
         "in_channel": 1,
         "embed_dim": 128,
-        "depth": [1, 1, 2, 1],
-        "depth_scale": 2.0,
+        "depth": [1, 1, 3, 1],
+        "depth_scale": 6.0,
         "mp_ratio": 1.0,
         "n_div": 8,
         "patch_conv_size": 3,
